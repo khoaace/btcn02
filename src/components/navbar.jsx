@@ -2,7 +2,7 @@ import React from 'react';
 const Navbar = props => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
     <a className="navbar-brand" href="#">
-      <i class="far fa-thumbs-up" />
+      <i className="far fa-thumbs-up" />
       1512257 - Trần Đăng Khoa
     </a>
     <button
