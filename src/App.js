@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 // Axios calls API
 import axios from 'axios';
@@ -11,7 +10,7 @@ import Navbar from './components/navbar.jsx';
 
 class App extends Component {
   state = {
-    urlAPI: `https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=71bb3dc2fc4e572f5613d03922bf5d44&extras=url_s%2Curl_l%2Cowner_name%2Cviews&per_page=20&page=0&format=json&nojsoncallback=1`,
+    urlAPI: `https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=6517187ddd2d0dde34a502f0bb2fc991&extras=url_s%2Curl_l%2Cowner_name%2Cviews&per_page=20&page=0&format=json&nojsoncallback=1`,
     photos: [],
     currentPage: 0,
   };
